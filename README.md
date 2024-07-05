@@ -53,5 +53,10 @@ Navigate to World Wide Web Services -> Application Development Features, and che
 
 <img width="127" alt="image" src="https://github.com/JacobKnittle/osticket-prerequisites/assets/124555008/b87077fc-492c-4ce3-982b-efad8876e9e6">
 
+5.) To verify that IIS is installed and enabled, open a browser and navigate to 127.0.0.1. You should see a page that looks similar to this.
 
+<img width="663" alt="image" src="https://github.com/JacobKnittle/osticket-prerequisites/assets/124555008/f39b95bf-7101-496c-ba95-95df168d955b">
 
+6.) With IIS now enabled, download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi) from the installation files. Follow the install wizard to complete the installation.
+
+7.) Next, download and install the Rewrite Module (rewrite_amd64_en-US.msi) from the installation files.

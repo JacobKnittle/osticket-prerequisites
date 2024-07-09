@@ -99,3 +99,14 @@ Navigate to World Wide Web Services -> Application Development Features, and che
   <img width="680" alt="image" src="https://github.com/JacobKnittle/osticket-prerequisites/assets/124555008/208ce3cf-98ac-44a0-9e1f-056ffe98e600">
 
 </p>
+
+11.) Going back to IIS on the left side you will click on sites -> default -> osTicket and then "Browse .*80" on the right side. The following tab should open up in the browser.
+
+<p>
+  <img width="507" alt="image" src="https://github.com/JacobKnittle/osticket-prerequisites/assets/124555008/7dee97c4-d9bd-41e5-9ea8-7c198a4fc8af">
+</p>
+
+<p>
+  <img width="397" alt="image" src="https://github.com/JacobKnittle/osticket-prerequisites/assets/124555008/df8fabdf-0179-4795-8689-673290579d13">
+
+</p>

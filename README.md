@@ -82,7 +82,7 @@ Navigate to World Wide Web Services -> Application Development Features, and che
 <img width="206" alt="image" src="https://github.com/JacobKnittle/osticket-prerequisites/assets/124555008/9d938cf5-3f49-41db-9efe-fe6d4e03f1a2">
 </p>
 
-9.) Now you will want to open IIS as a Administrator and register PHP from the PHP Manager by clicking on register new PHP version and navigating to the C-Drive, PHP folder, and selecting php-cgi.
+9.) Now you will want to open IIS as a Administrator and register PHP from the PHP Manager by clicking on register new PHP version and navigating to the C-Drive, PHP folder, and selecting php-cgi. Make sure you restart the IIS after.
 
 <p>
 <img width="506" alt="image" src="https://github.com/JacobKnittle/osticket-prerequisites/assets/124555008/17624455-13d0-4ded-ab8c-91e80f104c6c">
@@ -90,5 +90,12 @@ Navigate to World Wide Web Services -> Application Development Features, and che
 
 <p>
   <img width="505" alt="image" src="https://github.com/JacobKnittle/osticket-prerequisites/assets/124555008/a50ee284-1692-4a8c-88a8-85e16e5e2804">
+
+</p>
+
+10.) Next you will want to download osTicket from the installation Files and drag the upload folder from within it to This PC -> C-Drive -> inetpub -> wwwroot. Then rename the upload folder to osTicket.
+
+<p>
+  <img width="680" alt="image" src="https://github.com/JacobKnittle/osticket-prerequisites/assets/124555008/208ce3cf-98ac-44a0-9e1f-056ffe98e600">
 
 </p>

@@ -110,3 +110,11 @@ Navigate to World Wide Web Services -> Application Development Features, and che
   <img width="397" alt="image" src="https://github.com/JacobKnittle/osticket-prerequisites/assets/124555008/df8fabdf-0179-4795-8689-673290579d13">
 
 </p>
+
+12.) Some of the extensions we need are not enabled so go back to IIS, sites -> Default -> osTicket. Double click on the PHP manager -> enable or disable an extension and then enable php_imap.dll, php_intl.dll, and php_opcache.dll.
+
+<img width="506" alt="image" src="https://github.com/JacobKnittle/osticket-prerequisites/assets/124555008/ccdf6321-22f5-41a9-84ca-d5267e00678c">
+
+13.) Rename the file from C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php to C:\inetpub\wwwroot\osTicket\include\ost-config.php.
+
+14.) Then right click on the ost-config.php and select properties -> security -> advanced -> disable inheritance -> renive all inherited permissions from this object.

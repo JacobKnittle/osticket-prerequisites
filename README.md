@@ -75,3 +75,11 @@ Navigate to World Wide Web Services -> Application Development Features, and che
 </p>
 
 7.) Next, download and install the Rewrite Module (rewrite_amd64_en-US.msi) from the installation files.
+
+8.) Then you'll download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi) from the provided installation files. In the MySQL setup wizard, agree to the terms, choose a Typical installation, and proceed with the installation. Once installed, launch the Configuration Wizard. Opt for Standard Configuration and select Install As Windows Service, ensuring that Launch the MySQL Server automatically is checked. For credentials, use the username "root" and the password "Password1" for the sake of the tutorial.
+<p>
+
+<img width="206" alt="image" src="https://github.com/JacobKnittle/osticket-prerequisites/assets/124555008/9d938cf5-3f49-41db-9efe-fe6d4e03f1a2">
+
+
+</p>

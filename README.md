@@ -117,4 +117,16 @@ Navigate to World Wide Web Services -> Application Development Features, and che
 
 13.) Rename the file from C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php to C:\inetpub\wwwroot\osTicket\include\ost-config.php.
 
-14.) Then right click on the ost-config.php and select properties -> security -> advanced -> disable inheritance -> renive all inherited permissions from this object.
+14.) Then right click on the ost-config.php and select properties -> security -> advanced -> disable inheritance -> remove all inherited permissions from this object. Then click on add -> select a principal -> add in everyone and click check names -> ok -> select full control -> apply. It should look like the screenshot below.
+
+<p>
+  <img width="145" alt="image" src="https://github.com/JacobKnittle/osticket-prerequisites/assets/124555008/55b32df4-0d28-45be-863f-e3fc5e8d6cc1">
+
+</p>
+
+15.) Next we will continue setting up osTicket in the browser by clicking continue. Create a name for the help desk, a default email, and create an admin user making sure that you remember all the information for later use.
+
+<p>
+  <img width="685" alt="image" src="https://github.com/JacobKnittle/osticket-prerequisites/assets/124555008/653c1b1c-bb6c-4904-8cae-2ad901639951">
+
+</p>

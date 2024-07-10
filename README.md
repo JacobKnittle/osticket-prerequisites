@@ -111,7 +111,7 @@ Navigate to World Wide Web Services -> Application Development Features, and che
 
 </p>
 
-12.) Some of the extensions we need are not enabled so go back to IIS, sites -> Default -> osTicket. Double click on the PHP manager -> enable or disable an extension and then enable php_imap.dll, php_intl.dll, and php_opcache.dll.
+12.) Some of the extensions we need are not enabled so go back to IIS, sites -> Default -> osTicket. Double-click on the PHP manager -> enable or disable an extension and then enable php_imap.dll, php_intl.dll, and php_opcache.dll.
 
 <img width="506" alt="image" src="https://github.com/JacobKnittle/osticket-prerequisites/assets/124555008/ccdf6321-22f5-41a9-84ca-d5267e00678c">
 
@@ -131,7 +131,7 @@ Navigate to World Wide Web Services -> Application Development Features, and che
 
 </p>
 
-16.) Now install HeidiSQL from the installation files and follow the installation wizard. Open heidiSQL, click on new, and enter in the password you used to install mySQL and hit open. Then right click unnamed -> create new -> database -> name it osTicket -> ok.
+16.) Now install HeidiSQL from the installation files and follow the installation wizard. Open heidiSQL, click on new enter the password you used to install MySQL, and hit open. Then right-click unnamed -> create new -> database -> name it osTicket -> ok.
 
 <p>
   <img width="274" alt="image" src="https://github.com/JacobKnittle/osticket-prerequisites/assets/124555008/c91ad344-4940-4c98-a8e2-0f06b4671ef8">
@@ -143,7 +143,7 @@ Navigate to World Wide Web Services -> Application Development Features, and che
 
 </p>
 
-17.) Go back to the osTicket on the browser and go to the database setting. Put osTicket for the database name, root for the username, and your mySQL password. Then install osTicket on your VM.
+17.) Go back to the osTicket on the browser and go to the database setting. Put osTicket for the database name, root for the username, and your MySQL password. Then install osTicket on your VM.
 
 <p>
   <img width="272" alt="image" src="https://github.com/JacobKnittle/osticket-prerequisites/assets/124555008/0637dba6-0277-41f1-8c52-4ddd14e303da">
@@ -152,4 +152,4 @@ Navigate to World Wide Web Services -> Application Development Features, and che
 
 18.) To clean up, we are going to delete C:\inetpub\wwwroot\osTicket\setup and set the permissions for C:\inetpub\wwwroot\osTicket\include\ost-config.php to "Read" only by right-clicking -> properties -> security -> everyone and make sure only read and read & execute are selected.
 
-That concludes the initial setup and configuration of osTicket.
+That concludes the initial setup and configuration of osTicket. If you want to continue to post-installation configuration you can click here https://github.com/JacobKnittle/osTicket-Post-Install-Config.
